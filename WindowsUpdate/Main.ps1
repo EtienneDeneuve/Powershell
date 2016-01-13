@@ -7,7 +7,7 @@ foreach -parallel ($adserver in $adservers)
     Get-WindowsUpdate -computername $adserver.name
 }
 }
-
+ 
 
 Function Get-WindowsUpdate
 {
