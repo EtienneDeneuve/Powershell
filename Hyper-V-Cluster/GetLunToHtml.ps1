@@ -71,9 +71,3 @@ foreach ($Csv in $AllCSVs)
 } 
 
 Write-Output $objs | Select "Cluster Resource Name","Compellent Volume Name","Disk Lun","Disk Size","Free Space","Used Space","Disk Health" | ConvertTo-HTML -Head $Header -PreContent $precontent | Out-File C:\temp\Test.htm 
-
-
-
-
-Get-Command -Verb Format | Get-Alias
-
