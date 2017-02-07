@@ -1,5 +1,5 @@
 # to make the script change some stuff in your env, set the $debug as $false
-# otherwise, nothing will be change ;)
+# otherwise, nothing will be changed ;)
 <#
 
   Launch the script one time in debug before set it to false !
